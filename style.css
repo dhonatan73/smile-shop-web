@@ -87,4 +87,11 @@ header{
     height: 215px;
 }
 
+.window-description{
+    width: 900px;
+    height: 500px;
+    border: 1px #dedede solid;
+    border-radius: 25px;
+    display: flex;
+}
 /* esta linha para baixo estiliza a Janela expandida*/
