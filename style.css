@@ -6,6 +6,9 @@
     font-family: 'Poppins', sans-serif;
 }
 
+body{
+    background-color: #FFFFFF;
+}
 
 .logo-img{
     position:static;
@@ -62,3 +65,33 @@ header{
     width: 1000px;
  
 }
+/* esta linha para baixo estiliza a lista de produtos*/
+
+.product-box{
+    background-color: #FCFCFC;
+    width: 240px;
+    height: 280px;
+    border: 0.5px rgb(106, 128, 165) solid;
+
+    
+    cursor: pointer;
+
+}
+
+.product-list{
+    margin: 50px 150px;
+    width: 1300px;
+    height: 1900px;
+    display: grid;
+    grid-template-columns: 240px 240px 240px 240px 240px;
+    gap: 25px;
+    align-items: center;
+
+}
+
+.image-box{
+    width: 238px;
+    height: 215px;
+}
+
+/* esta linha para baixo estiliza a Janela expandida*/
