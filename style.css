@@ -68,32 +68,34 @@ header{
 /* esta linha para baixo estiliza a lista de produtos*/
 
 .product-box{
+
     background-color: #FCFCFC;
     width: 240px;
-    height: 280px;
+    height: 300px;
     border: 0.5px rgb(106, 128, 165) solid;
-
-    
     cursor: pointer;
-
+    border-radius: 15px;
+    text-align: center;
 }
 
 .product-list{
-    margin: 50px 150px;
+    margin: auto;
     width: 1300px;
     height: 1900px;
     display: grid;
     grid-template-columns: 240px 240px 240px 240px 240px;
     gap: 25px;
     align-items: center;
-
+   
 }
 
 .image-box{
     width: 238px;
     height: 215px;
+    border-radius: 15px;
 }
 
+<<<<<<< HEAD
 .window-description{
     width: 900px;
     height: 500px;
@@ -117,3 +119,6 @@ header{
     height: 400px;
 }
 
+=======
+/* esta linha para baixo estiliza a Janela expandida*/
+>>>>>>> 58ae0694ea4ccf6a5288f4cf5701a2a7e7c5645c
