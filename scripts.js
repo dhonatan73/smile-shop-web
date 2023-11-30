@@ -26,11 +26,7 @@ function printList(list, imagelist) {
         listPrint+=`<div onClick="openWindow('${element.productName}','${imagelist[index].img}')" class="product-box">
         <img class="image-box" src="./assets/products/${imagelist[index].img}">
         <p class="description">${element.productName}</p>
-<<<<<<< HEAD
         <p class="price">R$ ${element.productPrice},00</p>
-=======
-        <p class="price">R$ ${element.productPrice}</p>
->>>>>>> 58ae0694ea4ccf6a5288f4cf5701a2a7e7c5645c
         </div>`
     })
 
