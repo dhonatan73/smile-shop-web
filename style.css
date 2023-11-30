@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 body{
@@ -20,7 +22,7 @@ body{
 
 ul{
     list-style: none;
-    margin-top: -30px;
+    margin-top: -120px;
     margin-bottom: 25px;
     justify-content: center;
     display: flex;
@@ -31,33 +33,38 @@ li{
     cursor: pointer;
 }
 
+li:hover{
+    opacity: 0.7;
+}
+
+li:active{
+    opacity: 0.4;
+}
+
 section{
     font-size: 12px;
+    margin-top: 30px;
     margin-right: 60px;
-    margin-top: -30px;
     float: right;
 }
 
 header{
-    height: 300px;
-    margin: 100px 70px;
-    background-color: rgb(106, 128, 165);
+    width: 1400px;
+    height: 450px;
+    margin: 95px auto;
+    background-color: #6a80a5;
     border-radius: 15px;
-    transition: 1s;
+    transition: 1s ;
 }
 
 .template{
     border-radius: 15px;
-    margin-top: 100px;
-    margin-left: 100px;
-    margin-bottom: 50px;
-    display: flexbox;
-    width: 275px;
-    justify-content: center;
-    transition: 10s;
+    margin-top: 50px;
+    margin-left: 180px;
+    transition: 5s;
+    width: 1000px;
+ 
 }
-
-
 /* esta linha para baixo estiliza a lista de produtos*/
 
 .product-box{
@@ -95,3 +102,18 @@ header{
     display: flex;
 }
 /* esta linha para baixo estiliza a Janela expandida*/
+/* esta linha para baixo estiliza a Janela expandida*/
+
+.box-window{
+    margin: 25px auto;
+    width: 800px;
+    height: 500px;
+    border: 0.5px rgb(106, 128, 165) solid;
+    border-radius: 25px;
+}
+
+.big-image-box{
+    width: 375px;
+    height: 400px;
+}
+
