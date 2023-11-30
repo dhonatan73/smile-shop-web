@@ -14,7 +14,7 @@ function printList(list, imagelist, limitItens) {
         listPrint+=`<div class="product-box">
         <img class="image-box" src="./assets/products/${imagelist[index].img}">
         <p class="description">${element.productName}</p>
-        <p class="price">${element.productPrice}</p>
+        <p class="price">R$ ${element.productPrice}</p>
         </div>`
     })
 
