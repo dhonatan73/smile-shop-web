@@ -114,8 +114,50 @@ header{
 }
 
 .big-image-box{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 50px;
     width: 375px;
     height: 400px;
+    
+    
 }
 
 /* esta linha para baixo estiliza a Janela expandida*/
+.texto-dentro-da-box{
+    font-size: 25px;
+    font-style: italic;
+    margin-left: 100px;
+}
+
+.close-window{
+    position: relative; /* deixa essa relativa e a sobrepor absolute*/
+    float: right;
+    margin-top: 400px;
+    margin-right: 50px;
+    height: 30px;
+    width: 300px;
+    background-color: #cddc2b;
+    cursor: pointer;
+    border-radius: 15px;
+    transition: background-color 0.3s, box-shadow 0.3s; /* Adiciona transições suaves */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3); /* Adiciona uma leve sombra */
+    border: none;
+}
+
+.close-window:hover{
+    opacity: 0.8;
+}
+
+.close-window:active{
+    background-color: #ff525293;
+}
+
+.descript-window{
+    margin-top: 80px;
+    width: 300px;
+    font-size: 30px;
+    position: absolute; /*deixar essa absolute para sobrepor a relative*/
+    margin-left: 450px;
+    text-align: center;
+}

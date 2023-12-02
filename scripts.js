@@ -8,10 +8,12 @@ console.log(totalProducts)
 
 
 
-function openWindow(name,imagesrc){
+function openWindow(name,imagesrc,productDescription){
     let productWindow = document.querySelector(".window-division")
-    let list=`<div class="box-window"><div class="header-box"><p>${name}</p><button onClick="closeWindow()" class="close-window">X</button></div>
+    let list=`<div class="box-window"><div class="header-box"><p class="texto-dentro-da-box">${name}</p><button onClick="closeWindow()" class="close-window">Fechar</button></div>
+    <p class="descript-window">${productDescription}</p>
     <img class="big-image-box" src="./assets/products/${imagesrc}">
+    
     </div>`
 
     productWindow.innerHTML = list
@@ -23,10 +25,10 @@ function printList(list, imagelist) {
     let listPrint=''
 
     list.forEach((element, index) => {
-        listPrint+=`<div onClick="openWindow('${element.productName}','${imagelist[index].img}')" class="product-box">
+        listPrint+=`<div onClick="openWindow('${element.productName}','${imagelist[index].img}','${element.productDescription}')" class="product-box">
         <img class="image-box" src="./assets/products/${imagelist[index].img}">
         <p class="description">${element.productName}</p>
-        <p class="price">R$ ${element.productPrice},00</p>
+        <p class="price">R$ ${element.productPrice}</p>
         </div>`
     })
 
@@ -51,4 +53,8 @@ const getProduct=()=>{}
 productSelection.addEventListener('click', console.log(event){
 })*/
 
+function closeWindow() {
+    let productWindow = document.querySelector(".window-division");
+    productWindow.innerHTML = ""; // Limpar o conteúdo para fechar a janela
+}
 
