@@ -21,7 +21,6 @@ function openWindow(name,imagesrc){
     productWindow.innerHTML = list
 }
 
-
 function printList(list, imagelist) {
 
     let listBox = document.querySelector(".product-list")
@@ -51,8 +50,5 @@ function cliquei(event){
 productSelection.addEventListener("click", cliquei)
 
 
-function closeWindow() {
-    let productWindow = document.querySelector(".window-division");
-    productWindow.innerHTML = ""; // Limpar o conteúdo para fechar a janela
-}
+
 
