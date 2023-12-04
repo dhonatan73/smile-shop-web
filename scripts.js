@@ -19,6 +19,11 @@ function openWindow(name,imagesrc,productDescription){
     productWindow.innerHTML = list
 }
 
+function closeWindow() {
+    let productWindow = document.querySelector(".window-division");
+    productWindow.innerHTML = ""; // Limpar o conteúdo para fechar a janela
+}
+
 function printList(list, imagelist) {
 
     let listBox = document.querySelector(".product-list")
@@ -53,8 +58,5 @@ const getProduct=()=>{}
 productSelection.addEventListener('click', console.log(event){
 })*/
 
-function closeWindow() {
-    let productWindow = document.querySelector(".window-division");
-    productWindow.innerHTML = ""; // Limpar o conteúdo para fechar a janela
-}
+
 
