@@ -7,8 +7,10 @@ const totalProducts = productListArray
 console.log(totalProducts)
 
 
-
 function openWindow(name,imagesrc){
+
+    document.documentElement.scrollTo({top: 600, behavior: "smooth"})
+
     let productWindow = document.querySelector(".window-division")
     let list=`<div class="box-window"><div class="header-box"><p>${name}</p><button onClick="closeWindow()" class="close-window">X</button></div>
     <img class="big-image-box" src="./assets/products/${imagesrc}">
@@ -16,6 +18,7 @@ function openWindow(name,imagesrc){
 
     productWindow.innerHTML = list
 }
+
 
 function printList(list, imagelist) {
 
