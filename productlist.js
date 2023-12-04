@@ -30,7 +30,7 @@ const productListArray= [
     {id: 29, productName: "HD Externo 1Tb Seagate" , productBrand: "Seagate", classProduct: "Eletronicos", classId: 2, productPrice: `419,00`, productDescription: "HD Externo 1Tb Seagate" },
     {id: 30, productName: "kit 3 camisetas lisas coloridas ", productBrand: "Cotton Wear", classProduct: "Vestuario", classId: 4, productPrice: `99,90`, productDescription: "kit 3 camisetas lisas coloridas, algodão e poliester. Cores branca, azul e cinza. Tamanho G" },
     {id: 31, productName: "tênis Adiddas branco clássico", productBrand: "Addidas", classProduct: "Vestuario", classId: 4, productPrice: `364,99`, productDescription: "tênis Adiddas branco clássico, tamanho 42" },
-    {id: 32, productName: "Pen Drive 32gb" , productBrand: "SanDisk", classProduct: "Eletronicos", classId: 2, productPrice: `419,00`, productDescription: "Pen Drive 32gb, marca SanDisk, Ultra Dual" },
+    {id: 32, productName: "Pen Drive 32gb" , productBrand: "SanDisk", classProduct: "Eletronicos", classId: 2, productPrice: `35,90`, productDescription: "Pen Drive 32gb, marca SanDisk, Ultra Dual" },
 
 ]
 
