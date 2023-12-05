@@ -7,8 +7,10 @@ const totalProducts = productListArray
 console.log(totalProducts)
 
 
+function openWindow(name,imagesrc){
 
-function openWindow(name,imagesrc,productDescription){
+    document.documentElement.scrollTo({top: 600, behavior: "smooth"})
+
     let productWindow = document.querySelector(".window-division")
     let list=`<div class="box-window"><div class="header-box"><p class="texto-dentro-da-box">${name}</p><button onClick="closeWindow()" class="close-window">Fechar</button></div>
     <p class="descript-window">${productDescription}</p>
@@ -52,11 +54,6 @@ function cliquei(event){
 
 productSelection.addEventListener("click", cliquei)
 
-/*
-const getProduct=()=>{}
-
-productSelection.addEventListener('click', console.log(event){
-})*/
 
 
 
