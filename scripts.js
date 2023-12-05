@@ -7,7 +7,7 @@ const totalProducts = productListArray
 console.log(totalProducts)
 
 
-function openWindow(name,imagesrc){
+function openWindow(name,imagesrc,productDescription){
 
     document.documentElement.scrollTo({top: 600, behavior: "smooth"})
 
