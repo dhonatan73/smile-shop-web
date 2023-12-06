@@ -48,23 +48,49 @@ section{
     float: right;
 }
 
-header{
+/* Ajusta a posição usando left na classe transition-active */
+.transition-active .img-destaques {
+    left: calc(-100% - 70px);
+  }
+  
+  .transition-active .img-eletronicos {
+    left: calc(-200% - 2 * 70px);
+  }
+  
+  /* Adiciona a transição para todas as imagens */
+  header:hover .imagem-template {
+    left: -100%;
+  }
+  
+  header {
     width: 1400px;
     height: 450px;
     margin: 95px auto;
     background-color: #6a80a5;
     border-radius: 15px;
-    transition: 1s ;
-}
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    overflow: hidden;
+    gap: 70px; /* Adicione espaçamento entre as imagens */
+  }
 
-.template{
-    border-radius: 15px;
-    margin-top: 50px;
-    margin-left: 180px;
-    transition: 5s;
-    width: 1000px;
- 
-}
+  .imagem-template {
+    width: 250px;
+    border-radius: 10px;
+    clip-path: polygon(0% 5%, 100% 0%, 100% 95%, 0% 100%);
+    cursor: pointer;
+    transition: transform 2s ease;
+  }
+  
+  .img-destaques, .img-eletronicos {
+    height: 393px;
+  }
+  
+  .transition-active .imagem-template {
+    transform: translateX(-38%);
+  }
+
 /* esta linha para baixo estiliza a lista de produtos*/
 
 .product-box{

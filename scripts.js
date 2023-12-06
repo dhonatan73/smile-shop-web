@@ -54,6 +54,9 @@ function cliquei(event){
 
 productSelection.addEventListener("click", cliquei)
 
-
+document.addEventListener("DOMContentLoaded", function () {
+    // Aguarda o carregamento completo da página e adiciona a classe para iniciar a transição
+    document.querySelector(".imageContainer").classList.add("transition-active");
+  });
 
 
