@@ -91,6 +91,32 @@ section{
     transform: translateX(-38%);
   }
 
+
+h2{
+   text-align: center;
+   margin-bottom: 50px;
+}
+
+input {
+    margin-left: 40px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.search-button{
+    margin-top: 5px;
+    margin-left: -30px;
+    cursor: pointer;
+}
+
+.search-button:hover{
+    opacity: 0.7;
+}
+
+.search-button:active{
+    opacity: 0.4;  
+}
+
 /* esta linha para baixo estiliza a lista de produtos*/
 
 .product-box{
