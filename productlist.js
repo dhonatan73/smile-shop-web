@@ -13,7 +13,7 @@ const productListArray= [
     {id: 12, productName: "Bolsa Mulher Rosa Chique", productBrand: "Mulher Rosa Chique", classProduct: "Vestuario", classId: 4, productPrice: `334,90`, productDescription: "Bolsa Mulher Rosa Chique, couro sintético, acompanha carteira. Cor rosa." },
     {id: 13, productName: "Chinelo Havaianas edição especial copa", productBrand: "Havaianas", classProduct: "Vestuario", classId: 4, productPrice: `45,90,`, productDescription: "Chinelo Havaianas edição especial Copa 2022. Bandeira Brasil. Tamanho 42" },
     {id: 14, productName: "Oculos Solar Okley", productBrand: "Okley", classProduct: "Vestuario", classId: 4, productPrice: `299,00`, productDescription: "Oculos Okley, estilo esporte. Cor preta." },
-    {id: 15, productName: "Cinto couro masculino ", productBrand: "Couro Brasil", classProduct: "Vestuario", classId: 4, productPrice: `89,90`, productDescription: "Cinto masculino couro cor marrom, tamanhos 38 a 44" },
+    {id: 15, productName: "Cinto couro masculino", productBrand: "Couro Brasil", classProduct: "Vestuario", classId: 4, productPrice: `89,90`, productDescription: "Cinto masculino couro cor marrom, tamanhos 38 a 44" },
     {id: 16, productName: "Filtro Ar Chevrolet", productBrand: "Nakata",classProduct: "Automotivo", classId: 3, productPrice: `74,90`, productDescription: "Filtro de Ar, marca chevrolet ano 2011, marca Nakata" },
     {id: 17, productName: "Pneu Goodyear Aro 15", productBrand: "Goodyear",classProduct: "Automotivo", classId: 3, productPrice: `449,90`, productDescription: "Pneu Goodyear Aro 15" },
     {id: 18, productName: "Cambio VW Golf ano 2018", productBrand: "VW",classProduct: "Automotivo", classId: 3, productPrice: `2449,90`, productDescription: "Cambio VW Golf ano 2018, usado em ótimas condições. Aceito oferta" },
@@ -28,7 +28,7 @@ const productListArray= [
     {id: 27, productName: "Tênis Asycs Esporte cinza", productBrand: "Asycs", classProduct: "Vestuario", classId: 4, productPrice: `425,00`, productDescription: "Tênis Asycs cinza, edição corrida maratona" },
     {id: 28, productName: "Fonte Notebook Lenovo AWE342P" , productBrand: "Lenovo", classProduct: "Eletronicos", classId: 2, productPrice: `273,99`, productDescription: "Fonte Notebook Lenovo AWE342P, cor preta, 1 ano de garantia." },
     {id: 29, productName: "HD Externo 1Tb Seagate" , productBrand: "Seagate", classProduct: "Eletronicos", classId: 2, productPrice: `419,00`, productDescription: "HD Externo 1Tb Seagate" },
-    {id: 30, productName: "kit 3 camisetas lisas coloridas ", productBrand: "Cotton Wear", classProduct: "Vestuario", classId: 4, productPrice: `99,90`, productDescription: "kit 3 camisetas lisas coloridas, algodão e poliester. Cores branca, azul e cinza. Tamanho G" },
+    {id: 30, productName: "kit 3 camisetas lisas coloridas", productBrand: "Cotton Wear", classProduct: "Vestuario", classId: 4, productPrice: `99,90`, productDescription: "kit 3 camisetas lisas coloridas, algodão e poliester. Cores branca, azul e cinza. Tamanho G" },
     {id: 31, productName: "tênis Adiddas branco clássico", productBrand: "Addidas", classProduct: "Vestuario", classId: 4, productPrice: `364,99`, productDescription: "tênis Adiddas branco clássico, tamanho 42" },
     {id: 32, productName: "Pen Drive 32gb" , productBrand: "SanDisk", classProduct: "Eletronicos", classId: 2, productPrice: `35,90`, productDescription: "Pen Drive 32gb, marca SanDisk, Ultra Dual" },
 
